@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Software Developer Info</title>
+        <link rel="stylesheet" href="CSS.css" />
+    </head>
+    <body>
+        <form
+        method="post"
+        action="https://webhook.site/999927ee-40a4-4c09-a32b-d2f3574c3e12"
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        >
+            <legend class="info">Contact us with a question</legend>
+            <p>
+                <label>Best time to contact you: </label>
+                <select name = "Best Time">
+                    <option>Morning</option>
+                    <option>Afternoon</option>
+                    <option>Evening</option>
+                </select>
+            </p>
+            <p>
+                <label>Email Address:</label>
+                <input type="text" name="Email">
+            </p>
+            <p>
+                <input type="submit" />
+            </p>
+        </form>
+        <table class="flex">
+            <tr>
+                <th>Time of Day</th>
+                <th>What to Expect</th>
+            </tr>
+            <tr>
+                <td class="morning">9:00</td>
+                <td class="morning">Attend a team stand-up meeting</td>
+            </tr>
+            <tr>
+                <td class="morning">9:30</td>
+                <td class="morning">Begin coding session, work on current tasks and projects.</td>
+            </tr>
+            <tr>
+                <td class="afternoon">3:15</td>
+                <td class="afternoon">Attend meetings or collaborate with team members on ongoing projects.</td>
+            </tr>
+            <tr>
+                <td class="evening">5:30</td>
+                <td class="evening"> Wrap up, document progress, and plan for tomorrow.</td>
+            </tr>
+        </table>
+        
+        <a href="https://codeinstitute.net/global/blog/a-day-in-the-life-of-a-software-developer/">Learn More</a>
+        <img src="https://sp.yimg.com/ib/th?id=OIP.BUMdLi0Oa98YqcYnl47slgHaE8&pid=Api&w=148&h=148&c=7&dpr=2&rs=1" alt="Developer">
+
+        <button id="feedback">CLICK to send good feedback</button>
+
+        <script>
+            function handleButtonClick(){
+                alert('Thank you!');
+            }
+            document.getElementById('feedback').addEventListener('click', handleButtonClick);
+        </script>
+        
+    </body>
+</html>

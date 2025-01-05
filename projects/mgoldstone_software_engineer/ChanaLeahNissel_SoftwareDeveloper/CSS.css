@@ -1,0 +1,35 @@
+@media only screen and (max-width: 500px) {
+    body {
+      background-color: burlywood;
+    }
+    img{
+        width: 20%;
+        height: 20%;
+    }
+  }
+
+  p {
+    text-indent: 50px;
+    background-color: green;
+    opacity: 0.3;                               /*This is the new style that I haven't used before.*/
+  }
+
+  .morning{
+    color: pink;
+  }
+
+  .afternoon{
+    color: blueviolet;
+  }
+
+  .evening{
+    color: green;
+  }
+
+  .info{
+    font-weight: bold;
+  }
+
+  .span{
+    column-span: 2;
+  }
