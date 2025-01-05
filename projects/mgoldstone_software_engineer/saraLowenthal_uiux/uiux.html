@@ -1,0 +1,62 @@
+<!-- Sara Lowenthal 1/5/25 UI/UX -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>UI/UX Design</title>
+        <link rel="stylesheet" href="uiux.css" />
+        <script src="uiux.js" defer></script>
+    </head>
+    <body>
+        <h1 class="title">UI/UX Design Exploration</h1>
+
+        <img class="image" src="uiux.jpg" width="500" height="300" alt="UI/UX" />
+        <p>
+            <a href="https://userinyerface.com" target="_blank" class="link">Click here for a website that helps you appreciate UI/UX designers</a>
+        </p>
+
+        <form action="https://webhook.site/aaf0ae46-7a1f-4d69-a3dc-7a2809476593" method="POST" class="form">
+            <label for="design-flaws">What are some design flaws you have experienced?</label><br>
+            <textarea id="design-flaws" name="design-flaws" placeholder="Enter design flaws"></textarea><br><br>
+
+            <label for="rate">Rate the pain you experienced:</label><br>
+            <select id="rate" name="rate">
+                <option value="1">1 - Mild</option>
+                <option value="3">3 - Moderate</option>
+                <option value="5">5 - Severe</option>
+            </select><br><br>
+
+            <label for="improvements">Suggestions for improvement:</label><br>
+            <input type="text" id="improvements" name="improvements" placeholder="Your suggestions" /><br><br>
+
+            <input type="submit" value="Submit" />
+        </form>
+
+        <h2>Why we need UI/UX Designers:</h2>
+        <table border="1" class="table">
+            <tr>
+                <th colspan="2">UI/UX Design Flaws</th>
+            </tr>
+            <tr>
+                <td>Unintuitive Navigation</td>
+                <td>Menus that are hidden or labeled in ways that confuse users (like calling a logout button "exit the journey")</td>
+            </tr>
+            <tr>
+                <td>Overwhelming Choices</td>
+                <td>Presenting too many options at once without organizing them</td>
+            </tr>
+            <tr>
+                <td>Inconsistent Design</td>
+                <td>Using different styles, fonts, or button placements across pages—leaving users lost and frustrated</td>
+            </tr>
+            <tr>
+                <td>No Feedback for Actions</td>
+                <td>Buttons or actions that don’t give any feedback, leaving users wondering if their input was registered</td>
+            </tr>
+        </table>
+
+        <button class="button" id="alertButton">Click Me!</button>
+    </body>
+</html>
