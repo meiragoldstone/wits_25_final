@@ -1,0 +1,67 @@
+/* PessieMittelman_AIDeveloper.css */
+.head {
+    background-color: white;
+    margin: 5%;
+    padding: 5%;
+}
+
+.AIDeveloper {
+    color: navy;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.Name {
+    color: purple;
+    font-size: x-large;
+    text-align: center;
+}
+
+
+.image {
+    display: inline-block, center;
+    height: 300px;
+    margin: 20%;
+    transition: transform 1s ease-in-out;
+    animation: grow 2s infinite alternate;  
+}
+
+@media (max-width: 600px) {
+    .form {
+        text-align: center;
+        color: plum;
+    }
+}
+
+/* Animation */
+@keyframes grow {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.5);
+    }
+  }
+  
+.table {
+    border: solid 4px hotpink;
+    padding: 1%;
+    margin: 5%;
+}
+
+th {
+    border: solid 2px teal;
+    font-size: medium;
+    margin: 5%;
+}
+
+td {
+    border: solid 2px lightskyblue;
+    font-size: small;
+    padding: 1%;
+    margin: 1%;
+}
+
+td[colspan]{
+    text-align: center;
+}
