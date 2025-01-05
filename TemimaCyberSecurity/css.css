@@ -1,0 +1,90 @@
+header {
+    color: red;
+    font-size: 50px;
+}
+
+/* Style for the first list item */
+ul:first-child {
+    color: green;
+    font-family: courier;
+    font-size: 160%;
+}
+
+/* Class for titles section */
+.titles {
+    text-align: center;
+    background-color: yellow;
+    padding: 30px;
+    margin: 16px;
+}
+
+/* Hover effect on div elements */
+div:hover p {
+    display: block;
+    color: aqua;
+}
+
+/* New animation: changes background color from red to aquamarine */
+@keyframes colorChange {
+    from { background-color: red; }
+    to { background-color: aquamarine; }
+}
+
+/* Style for divs with animation */
+div {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    animation-name: colorChange;
+    animation-duration: 5s;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Flex container styling */
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.flex-item {
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Grid container styling */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.grid-item {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Responsive design: changes background color for smaller screens */
