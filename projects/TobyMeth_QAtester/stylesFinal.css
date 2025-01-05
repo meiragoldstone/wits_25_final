@@ -1,0 +1,37 @@
+h1{
+    color: rgb(240, 24, 207);
+    text-shadow: 2px 2px 5px black;
+    margin: 30px;
+}
+@keyframes colorSwap {
+    from {background-color: purple;}
+    to {background-color: rgb(0, 179, 255);}
+  }
+  
+  /* animation-changes background of h1 */
+h1 { 
+    width: 1000px;
+    height: 100px;
+    background-color: purple;
+    animation-name: colorSwap;
+    animation-duration: 4s;
+  }
+table{
+    border: solid 1pt, pink;
+    border-collapse: collapse;
+}
+th{
+    border:solid 1pt;
+    color: rgb(0, 238, 255);
+    padding: 10pt;
+}
+td{
+    border:solid 1pt;
+    color:rgb(8, 138, 138);
+    padding:5pt
+}
+@media screen and (max-width:550px){
+    h1{
+        color:black;
+    }
+}
