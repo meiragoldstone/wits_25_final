@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="qaTesterStyle.css">
+        <title> QA Tester</title>
+    </head>
+    <body>
+        <h1>What is a QA Tester</h1>
+        <p class="lotOfWords">A QA (quality assurance) tester helps make sure that clients or end users will not end up with faulty software.
+            They do this by running tests to try to break the software or make it malfunction in as many ways possible, so that the developers will now what to fix before releasing their product.
+        </p>
+        <img src = "C:/Users/Sara/Pictures/debugPic.jpg" width="200" height="200"></img>
+        <form method="post" action="https://webhook.site/bc44828e-0f07-4d93-bda1-34cdae542201">
+            <legend>Would you be a good QA Tester?</legend>
+            <p>
+                <label>Do you have good communication skills?</label>
+                <select name="choice">
+                    <option>Yes</option>
+                    <option>No</option>
+                    <option>Somewhere in between</option>
+                </select>
+                (Hint: You would need good communication skills.)
+            </p>
+            <p>
+                <label>How many programming languages are you proficient in: </label>
+                <input type="text" name="languages">
+            </p>
+            <input class="submitButton" type="submit">
+        </form>
+        <div class="jsButton">
+            <button id="myButton">Does this button do anything?</button>
+            <script src="script.js"></script>
+        </div>
+        <table class="myTable">
+            <tr>
+                <th colspan="2">Types of QA Testing</th>
+            </tr>
+            <tr>
+                <td>Unit testing</td>
+                <td class="lotOfWords">QA testers begin with unit testing to evaluate individual software functions,
+                     allowing for easier identification of issues. 
+                     Once unit testing is complete, they progress to component testing, 
+                     which involves testing the interaction between multiple units of code.
+                </td>
+            </tr>
+            <tr>
+                <td>Integration Testing</td> 
+                <td class="lotOfWords">QA testing ensures that different code components work together by testing them concurrently;
+                     if they don't function properly when integrated, developers must make adjustments.
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">And more!  To learn more about QA Testers, 
+                    <a href="https://www.coursera.org/articles/qa-tester">click here.</a>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

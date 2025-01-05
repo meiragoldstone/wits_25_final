@@ -1,0 +1,47 @@
+/*css needs at least 4 classes with different formatting,
+ 1 @media screen tag, 1 spacing, 1 colspan or rowspan,
+  1 animation or style that haven't ever used*/
+
+.lotOfWords {
+    font-size: smaller;
+}
+
+.submitButton {
+    height: 50pt;
+    padding: 5pt;
+}
+
+@media screen and (min-width: 700px) {
+    .submitButton {
+        height: 80pt;
+    }
+}
+
+/* an animation I have never used*/
+@keyframes colorChange {  
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+.jsButton > button {
+    margin: 5pt;
+    background-color: red;
+    animation-name: colorChange;
+    animation-duration: 4s;
+}
+
+.myTable {
+    border: solid 2pt black;
+    border-collapse: collapse;
+}
+th, td {
+    border: solid 1pt black;
+    padding: 10pt;
+    background-color: mintcream;
+    text-align: center;
+}
+th {
+    border: solid 2pt black;
+}
