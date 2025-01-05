@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Link to the external stylesheet -->
+    <link rel="stylesheet" href="css.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+
+    <script>
+        // JavaScript function to handle button click event
+        function handleButtonClick() {
+            alert('Button clicked!');
+        }
+
+        // Adding event listener to a button after the page is loaded
+        window.onload = function() {
+            document.getElementById('myButton').addEventListener('click', handleButtonClick);
+        };
+    </script>
+</head>
+<body>
+    <!-- Image -->
+    <img src="math2.jpg" alt="math image" width="300" height="200">
+
+    <!-- Link -->
+    <a href="https://www.google.com/" target="_blank">Go to Google</a>
+
+    <!-- Title Section -->
+    <div class="titles">
+        <h1>Cybersecurity field</h1>
+    </div>
+
+    <!-- Button to trigger JS function -->
+    <button onclick="handleButtonClick()">Click Me</button>
+    <button id="myButton">Click when done</button>
+
+    <!-- Flex Container -->
+    <div class="flex-container">
+        <div class="Data Protection">Data Protection</div>
+        <div class="Constant action">Constant action</div>
+    </div>
+
+    <!-- Grid Container -->
+    <div class="grid-container">
+        <div class="Cyberthreats">Cyberthreats</div>
+        <div class="Security Risks">Security Risks</div>
+    </div>
+
+    <!-- Table with Colspan and Rowspan -->
+    <table>
+        <tr>
+            <th>Cybersecurity</th>
+            <th colspan="2">Safety</th>
+        </tr>
+        <tr>
+            <td>Firewalls</td>
+            <td>Networks</td>
+            <td rowspan="2">Data Backup</td>
+        </tr>
+        <tr>
+            <td>Constantly evolving</td>
+            <td>Progress</td>
+        </tr>
+    </table>
+
+    <!-- Form with Webhook and 3 different form elements -->
+    <form method="post" action="https://webhook.site/413409ca-6847-4f07-a867-ff728bf0d559">
+        <legend>Details</legend>
+        <p>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+        </p>
+        <p>
+            <label>Field:</label>
+            <select name="choose">
+                <option>select career</option>
+                <option>Cybersecurity</option>
+                <option>Web developer</option>
+                <option>Data analyst</option>
+            </select>
+        </p>
+        <p>
+            <label for="skills">Name:</label>
+            <input type="text" id="skills" name="skills" required><br>
+        </p>
+        <p>
+            <label for="email">Skills:</label>
+            <input type="email" id="email" name="email" required><br>
+        </p>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
