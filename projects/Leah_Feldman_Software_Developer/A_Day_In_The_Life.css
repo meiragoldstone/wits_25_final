@@ -1,0 +1,46 @@
+table {
+    border-collapse: collapse;
+    size: 200;
+    display: flex;
+    margin: 20px;
+    animation: fadeIn 2s ease-in-out;
+    
+}
+td{
+    border: solid 2pt blue;
+    padding: 8px;
+}
+th{
+    border: dotted 3pt green;
+    padding: 8px;
+    color: lightgreen;
+}
+.table{
+    border-collapse: collapse;
+    size: 200;
+    display: flex;
+}
+.header{
+    font-size:large;
+}
+.col1{
+    font-size:larger;
+    color: lightblue;
+    border: 1pt black; 
+}
+.image{
+    border-color:aqua;
+}
+@media screen and (max-width:500px){
+    th{
+        border: 2pt purple;
+    }
+}
+@keyframes fadeIn {  /*this is the animation - it makes the table fade in when open the website.*/
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
